@@ -14,8 +14,8 @@ public class GoogleSheetManager : MonoBehaviour
         {
             id = item.ID,
             name = item.Name,
-            price = item.Price,
             description = item.Description,
+            price = item.Price,
             quantity = item.Quantity,
             spriteName = item.SpriteName
         };
@@ -88,8 +88,8 @@ public class GoogleSheetManager : MonoBehaviour
     {
         public string id;
         public string name;
-        public float price;
         public string description;
+        public float price;
         public int quantity;
         public string spriteName;
     }
