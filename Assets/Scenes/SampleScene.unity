@@ -167,7 +167,7 @@ MonoBehaviour:
   coinText: {fileID: 2141321588}
   playerId: P001
   itemPrefab: {fileID: 1357870476750187705, guid: 48b960e977400714fb4d64013aaa66a6, type: 3}
-  itemContainer: {fileID: 373017573}
+  itemContainer: {fileID: 1955832594}
   playerCoins: 5000
   url: https://script.google.com/macros/s/AKfycbxBG935lMTjAEyLn8XdSWve-9x4b_E5K1qRmBT12Vzlvtddc8jkZZ7-o8wthu7Op18/exec
 --- !u!4 &156522418
@@ -267,8 +267,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 732769098}
   m_HandleRect: {fileID: 732769097}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.81436056
+  m_Value: 0.9999989
+  m_Size: 0.9380412
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -348,8 +348,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.8194, y: -28.767883}
-  m_SizeDelta: {x: 990.1112, y: 1281.3873}
+  m_AnchoredPosition: {x: 8.649109, y: -36.055534}
+  m_SizeDelta: {x: 1258.7445, y: 875.2411}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &373017574
 MonoBehaviour:
@@ -1087,8 +1087,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 27.5786, y: 1573.4889}
+  m_AnchoredPosition: {x: 0, y: 0.0001}
+  m_SizeDelta: {x: 27.5786, y: 933.0519}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1955832595
 MonoBehaviour:
@@ -1148,8 +1148,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 357.9367, y: 888.77527}
-  m_SizeDelta: {x: 317.735, y: 108.8674}
+  m_AnchoredPosition: {x: 715.5333, y: 456}
+  m_SizeDelta: {x: 440.6685, y: 108.8674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2141321587
 CanvasRenderer:

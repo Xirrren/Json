@@ -12,6 +12,7 @@ public class GoogleSheetManager : MonoBehaviour
         // 創建一個要送出的資料
         var postData = new PostData
         {
+            id = item.ID,
             name = item.Name,
             price = item.Price,
             description = item.Description,
@@ -85,6 +86,7 @@ public class GoogleSheetManager : MonoBehaviour
     [System.Serializable]
     public class PostData
     {
+        public string id;
         public string name;
         public float price;
         public string description;

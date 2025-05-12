@@ -17,7 +17,7 @@ public class ShopManager1 : MonoBehaviour
     private ItemDataList itemDataList;
 
     [Header("Google Sheet API")]
-    public string url = "https://script.google.com/macros/s/AKfycbxU4WDjwZQaiC3ToFDBd_UPKm4dk8wnNdlY5LLKZNorUzGWPIs_gNuam1OHuk39pJYx/exec";  // 貼上你的 Google Apps Script 網址
+    public string url = "https://script.google.com/macros/s/AKfycbxBG935lMTjAEyLn8XdSWve-9x4b_E5K1qRmBT12Vzlvtddc8jkZZ7-o8wthu7Op18/exec";  // 貼上你的 Google Apps Script 網址
     private GoogleSheetManager googleSheetManager;  // 新增 GoogleSheetManager
     void Start()
     {
